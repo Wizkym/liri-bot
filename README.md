@@ -47,7 +47,7 @@ do-what-it-says
      * Date of the Event
 
 
-* Step Three: node liri.js movie-this ```<movie name here>```.
+* Command Three: node liri.js movie-this ```<movie name here>```.
 	
 	This will output the following information to your terminal/bash window:
 	* Title of the movie.
@@ -61,7 +61,7 @@ do-what-it-says
 	
 	If the user doesn't type a movie in, the program will output data for the movie 'Mr. Nobody'
 
-* Step Four: node liri.js do-what-it-says
+* Command Four: node liri.js do-what-it-says
 
 	This will output the command placed in random.txt file
 
