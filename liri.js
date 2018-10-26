@@ -90,7 +90,7 @@ const appendData = (type, data) => {
     let dataToAppend = `${type},${data}`;
     fs.appendFile('random.txt', dataToAppend + '\n', (err) => {
         if (err) throw err;
-        console.log('The "data to append" was appended to file!');
+        console.log('The "data to append" was appended to file! \n________________________________________________');
     });
 };
 
