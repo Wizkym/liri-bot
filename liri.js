@@ -130,13 +130,13 @@ switch (type) {
         break;
     case 'movie-this':
         if (!title) {
-            title = "Born to Race";
+            title = "Mr. Nobody";
         }
         getMovieData(title);
         break;
     case 'concert-this':
         if (!title) {
-            title = "The Sign";
+            title = "Mariah Carey";
         }
         getConcertData(title);
         break;
